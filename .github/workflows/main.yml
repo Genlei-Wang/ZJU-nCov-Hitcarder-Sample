@@ -3,7 +3,7 @@ name: ZJU-nCov-Hitcarder Sample
 on:
   workflow_dispatch:
   schedule:
-    - cron: "57 23 * * *"
+    - cron: "30 00 * * *"
 
 jobs:
   main:
